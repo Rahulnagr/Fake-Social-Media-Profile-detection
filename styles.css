@@ -1,0 +1,104 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.full-page
+{
+    height: 100%;
+    width: 100%;
+    background-image:url(clg.pro.005.jpg);
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+}
+.navbar
+{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    padding-left: 50px;
+    padding-right: 30px;
+    padding-top: 50px;
+}
+nav
+{
+    flex: 1;
+    text-align: right;
+}
+nav ul
+{
+    display: inline-block;
+    list-style: none;
+}
+nav ul li
+{
+    display: inline-block;
+    margin-right: 70px;
+}
+nav ul button 
+{   
+    position: inline;
+    top: 20%;
+    left: 500%;
+    text-decoration:none;
+    font-size: 20px;
+    color:white;
+    font-family: "Roboto"sans-serif;
+    background-color: #10ffc7;
+    background-size:cover;
+    padding: 5px;
+}
+nav ul li .button-box
+{
+    font-size: 10px;
+    color: rgb(240, 8, 8);
+    outline: none;
+    border: none;
+    background: transparent;
+    background-color:#000000 ;
+    cursor: pointer;
+    font-family: serif;
+    padding: 5px;
+}
+nav ul li button:hover
+{
+    color: rgb(240, 3, 3);
+    padding: 5px;
+}
+nav ul li a:hover
+{
+    color: rgb(255, 0, 0);
+}
+a
+{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: 28px;
+}
+.full-page h1
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    padding: 1px 1px 1px 1px;
+    color: rgb(255, 255, 255);
+    background: #09ff00;
+}
+.full-page h2
+{
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    padding: 4px 4px 4px 4px;
+    color: rgb(255, 255, 255);
+    background: #09ff00;
+    word-spacing: 3mm;
+}
+button
+{
+    border-radius: 8px;
+}
